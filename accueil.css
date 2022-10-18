@@ -1,0 +1,35 @@
+body
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+   font-family: monospace;
+}
+
+.c-typing {
+  font-size: 32px;
+  font-weight: bold;
+  border-right: 3px solid;
+  animation: typing-animation 2s steps(23), blink-animation .5s step-end infinite alternate;
+  width: 700px;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+@keyframes typing-animation {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink-animation {
+  50% {
+    border-color: transparent;
+  }
+}

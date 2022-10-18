@@ -1,0 +1,18 @@
+body
+{
+	background-color: black;
+}
+h1
+{
+	text-align: center;
+	color: orange;
+}
+h2
+{
+	text-align: center;
+	text-transform: !important;
+	float: left;
+}
+* {
+   font-family: monospace;
+}
