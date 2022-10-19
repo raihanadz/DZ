@@ -1,0 +1,109 @@
+*
+{ font-family: monospace;
+	
+}
+div
+{margin-left: 5px;
+	margin-top: 10px;
+	margin-right: 5px;
+	border-radius: 1em;
+
+
+}
+
+.b1
+{
+border: 5px solid black;
+	border-radius: 8px;
+	height: 1170px;
+	width: 40%;
+	margin-left: 550px;
+	font-size: 15px;
+	
+
+}
+
+.b2
+{
+    border: 5px solid ;
+	border-radius: 4px;
+	height: 250px;
+	width: 93%;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 4px;
+    text-align: left;
+    border-color: #621A99;
+
+
+
+}
+
+.bloc
+{float: right;
+
+}
+
+.b3
+{
+border: 5px solid ;
+	border-radius: 4px;
+	height: 250px;
+	width: 93%;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 4px;
+    text-align: left;
+    border-color: #621A99;
+
+
+
+
+}
+
+.b4
+{
+border: 5px solid ;
+	border-radius: 4px;
+	height: 250px;
+	width: 93%;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 4px;
+    text-align: left;
+    border-color: #621A99;
+
+
+
+
+}
+
+.b5
+{
+border: 5px solid ;
+	border-radius: 4px;
+	height: 280px;
+	width: 93%;
+    margin-left: 10px;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 4px;
+    text-align: left;
+    border-color: #621A99;
+
+
+}
+
+
+
+
+p
+{font-style: monospace;
+	font-size: 10.25pt;
+}
+
+h4
+{text-align: right}
