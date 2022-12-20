@@ -1,0 +1,29 @@
+button
+{
+    background-color:#DB7093;
+    border-radius: 10px solid black;
+    font-family:monospace;
+    width: 20%;
+    height: 5em;
+    color: white;
+    padding: 14px;
+    margin: 2em;
+    
+}
+button:hover
+{
+    background-color: #FF69B4;
+    cursor: pointer;
+}
+
+.h1
+{
+    text-align: center;
+    color: white;
+}
+
+body
+{
+    background-color:#FFB6C1;
+}
+
