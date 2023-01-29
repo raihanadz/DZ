@@ -1,0 +1,126 @@
+
+h1{
+ margin-left: 70px;
+ 
+}
+.projet{
+  color: black;
+}
+button {
+    display: inline-block;
+    background-color: #034B61;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 185px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 0)  ;
+    border-radius:2px;
+    margin-left:20px;
+    
+    
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: #DCB233;
+  }
+  button:hover span {
+    padding-right: 25px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  /*on définit la taille de la div du menu ainsi que la taille de parties du menu*/
+  div#menu {width: 100px; }
+  
+  div#menu ul {
+      padding: 0;
+      width: 100px;
+      margin: 0px;
+      z-index: 10;
+      
+  
+      
+  
+  }
+  
+  div#menu ul li {
+      position: relative;
+      list-style: none;  /*on enleve les icones de listes*/
+      border-bottom: 1 px solid; /* ajout d'une bordure*/
+      
+  }
+  
+  
+  div#menu ul {
+    padding: 0;
+    width: 200px;
+    margin: 0px;
+    
+     
+  
+  
+  }
+  
+  div#menu ul li {
+    position: relative;
+    list-style: none;  /*on enleve les icones de listes*/
+    
+  }
+  div#menu ul ul {
+    position: absolute;
+    top: 0;
+    left: 100px; /* 100px correspond au décalage a droite*/
+  
+  }
+  div#menu li a {
+    text-decoration: none; /* plus de soulignement pour les liens*/
+  
+  }
+  
+  /*Puis on cache tout les sous menu avec la propriété display: none*/
+  div#menu ul ul {
+    position: absolute;
+    top: 0;
+    left: 210px;
+    display: none;
+    
+  
+   }
+   div#menu ul.niveau1 li.sousmenu:hover ul.niveau2,
+   div#menu ul.niveau2 li.sousmenu:hover ul.niveau3 {display:block;}
+   
+   div#menu a {color:000000;}
+   
+   
+   
+   /*on rajoute une bordure a gauche et des paddings*/
+  
+   
+   /*la bordure de chaque hauteur à une couleur de survol*/
+   
+   div#menu li a:hover {border-left-color: red;}
+   div#menu ul ul li a:hover {border-left-color: #00FF00;}
+   div#menu ul ul ul li a:hover {border-left-color: #0000FF;}
+  
+   
+  
