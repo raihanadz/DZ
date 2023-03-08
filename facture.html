@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="facture.css">
+    <script src="facture.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<form>
+   <div class="d1"> <h2>FACTURE</h2>
+    <img src="inconnu.jpg">
+    <input type="text" class="i1" placeholder="Nom de la compagnie"><br><br>
+    <input type="text" class="i1" placeholder="Adresse postale"><br><br>
+    <input type="text" class="i1" placeholder="Détails du contact"><br> 
+
+    <input type="text" class="i2" placeholder="Date"><br> <br>
+    <input type="text" class="i2" placeholder="N° de facture"><br> 
+
+   </div>
+
+   <div class="d2">
+   <div class="d3"><h3> Destinataire</h3>
+   <input type="text" class="i3" placeholder="Nom"><br>
+   <input type="text" class="i3" placeholder="Nom de la société"><br>
+   <input type="text" class="i3" placeholder="Adresse postale"><br>
+   <input type="text" class="i3" placeholder="Téléphone"><br>
+   <input  type="text" class="i3" placeholder="Email"><br></div>
+
+   <div class="d4"><h3>Envoyez à</h3>
+    <input type="text" class="i3" placeholder="Nom"><br>
+    <input type="text" class="i3" placeholder="Nom de la société"><br>
+   <input type="text" class="i3" placeholder="Adresse postale"><br>
+   <input type="text" class="i3" placeholder="Téléphone"><br>
+   <input  type="text" class="i3" placeholder="Email"><br></div>
+   
+   </div>
+
+   </div>
+   
+   <table id="table_inv">
+  
+    <tr>
+      <th>DESCRIPTION</th>
+      <th>QUANTITE</th>
+      <th>PRIX UNITAIRE</th>
+      <th>TOTAL</th>
+    </tr>
+
+    <tr class="row">
+      <td><input type="text" class="desc"  placeholder="desc1" name="desc"  class="i6"></td>
+      <td><input type="text" class="input qte" id="inputA" name="qte" placeholder="0"></td>
+      <td><input type="text" class="input prix" id="inputB" name="prix" placeholder="0"></td>
+      <td><input type="text" class="totalLigne" id="T1" name="total" placeholder="0"></td>
+    </tr>
+    <tr>
+      <td><input type="text" class="desc" name="desc" placeholder="desc2"></td>
+      <td><input type="text" class="input qte" id="inputC" name="qte" placeholder="0"></td>
+      <td><input type="text" class="input prix" id="inputD" name="prix" placeholder="0"></td>
+      <td><input type="text" class="totalLigne" id="T2" name="total" placeholder="0"></td>
+    
+    </tr>
+    <tr class="row" id="modeleLigne">
+      <td><input type="text" class="desc" name="desc" placeholder="desc3"></td>
+      <td><input type="text" class="input qte" id="inputE" name="qte" placeholder="0"></td>
+      <td><input type="text" class="input prix" id="inputF" name="prix" placeholder="0"></td>
+      <td><input type="text" class="totalLigne" id="T3" name="total" placeholder="0"></td>
+    
+    </tr>
+
+    <tr class="row lastrow" id="lastLigne">
+      <td><input type="text" placeholder="desc" class="desc" name="desc4"></td>
+      <td><input type="text" class="input qte" id="inputG" name="qte" placeholder="0"></td>
+      <td><input type="text" class="input prix" id="inputH" name="prix" placeholder="0"></td>
+      <td><input type="text" class="totalLigne" id="T4" name="total" placeholder="0"></td>
+    
+    </tr>
+    <tr>
+    </tr>
+  </table>
+
+  <h4> Remarques, notes et instructions de paiement</h4>
+<div class="d5">
+  Sous-total : <input type="text" class="i6" id="ST"> <br> <br>
+  Remises : <input type="text" class="i6" id="Re"> <br> <br>
+  Sous-total moins les remises : <input type="text" class="i6" id="STM"> <br> <br>
+  Taux d'imposition : <input type="text" class="i6" id="TI"> <br> <br>
+  Taux totale : <input type="text" class="i6" id="Tt"> <br> <br>
+  Expidito, manutention : <input type="text" class="i6" id="E_M"> <br> <br>
+
+  <h4> Solde du : <input type="text" class="i6" id="SOL"> </h4>
+</div>
+<br>
+
+
+<div class="buttonjs">
+<input type="button" onclick="Calculer()" value="Calculer le solde">
+<input type="button" onclick="remplir()" value="Remplir automatiquement">
+<input type="button" onclick="ajouterLigne()" value="Ajouter une Ligne">
+<input type="button" onclick="calculate()" value="Calcul total">
+<input type="reset">
+</div>
+</body>
+</html>
+
+</form>
+</html>
+</body>

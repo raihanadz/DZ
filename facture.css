@@ -1,0 +1,138 @@
+body
+{
+    font-family: monospace;
+}
+h2
+{
+    float: right;
+    margin-right: 50px;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    
+}
+
+.i1
+{
+    margin-top: 15px;
+    margin-left: 10px;
+
+    
+}
+.i2
+{
+    float: right;
+    margin-right: 40px;
+}
+img{
+    width: 120px;
+    height: 140px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.d1
+{
+    height: 200px;
+    width: 100%;
+    border: 1px solid #000000;
+    background-color: #1d8386;
+}
+
+h3{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    width: 550px;
+}
+.i3
+{
+    border:none;
+}
+
+
+.d2
+{
+   
+    height: 150px;
+    width: 100%;
+}
+.d3
+{
+    margin-left: 12px;
+    height:200px;
+    width: 50%;
+    float: left;
+
+} 
+.d4
+{
+    float:left;
+    
+    width:49%;
+    height: 200px;
+}
+
+.d5
+{
+    margin-left: 50%;
+}
+
+table
+{
+    border: 1px solid black;
+    width: 97%;
+    height: 100px;
+}
+
+th{
+    background-color: rgb(40, 114, 114);
+    color: white;
+}
+
+.i6{
+    width: 400px;
+    border: none;
+}
+
+.qte
+{
+    width: 98%;
+    border: 1px solid black;
+    height: 40px;
+}
+
+.prix
+{
+    width: 98%;
+    border: 1px solid black;
+    height: 40px;
+}
+
+.totalLigne
+{
+    width: 98%;
+    border: 1px solid black;
+    height: 40px;
+}
+
+.desc
+{
+    width: 98%;
+    border: 1px solid black;
+    height: 40px;
+}
+
+table
+{
+    border: 1px solid black;
+    width: 99%;
+    height: 100%;
+   
+    
+}
+
+button
+{
+    border: 1px solid black;
+    background-color: rgb(162, 177, 192);
+}
